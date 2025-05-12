@@ -36,7 +36,7 @@ const addProduct = () => {
        <div>
         <input onInput={e => setNewProductName(e.target.value)} type="text" placeholder="Unesite ime automobila"></input>
         <input onInput={e => setNewProductPrice(e.target.value)} type="number" placeholder="Unesite cenu automobila"></input>
-        <button onClick={addProduct}>Add Product</button>
+        <button onClick={addProduct}>Dodaj automobil</button>
         
        </div>
 
